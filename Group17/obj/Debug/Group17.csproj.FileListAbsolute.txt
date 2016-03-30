@@ -1,0 +1,6 @@
+C:\Users\Alex\Desktop\Group17\Group17\bin\Debug\Group17.exe.config
+C:\Users\Alex\Desktop\Group17\Group17\bin\Debug\Group17.exe
+C:\Users\Alex\Desktop\Group17\Group17\bin\Debug\Group17.pdb
+C:\Users\Alex\Desktop\Group17\Group17\obj\Debug\Group17.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Group17\Group17\obj\Debug\Group17.exe
+C:\Users\Alex\Desktop\Group17\Group17\obj\Debug\Group17.pdb
