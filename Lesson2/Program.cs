@@ -30,7 +30,7 @@ namespace Lesson2
                 Console.WriteLine(mass[i]);
             }
 
-            /*int[,] table = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
+            int[,] table = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
 
             for (int i = 0; i < table.GetLength(0) ; i++)
             {
@@ -40,7 +40,7 @@ namespace Lesson2
                     Console.Write(table[i, j] + " ");
                 }
                 Console.WriteLine();
-            }*/
+            }
 
             /*string text = Console.ReadLine();
             while (text != "exit")
