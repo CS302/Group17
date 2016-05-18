@@ -1,0 +1,6 @@
+C:\Users\Alex\Documents\GitHub\Group17\XmlWeb\bin\Debug\XmlWeb.exe.config
+C:\Users\Alex\Documents\GitHub\Group17\XmlWeb\bin\Debug\XmlWeb.exe
+C:\Users\Alex\Documents\GitHub\Group17\XmlWeb\bin\Debug\XmlWeb.pdb
+C:\Users\Alex\Documents\GitHub\Group17\XmlWeb\obj\Debug\XmlWeb.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Group17\XmlWeb\obj\Debug\XmlWeb.exe
+C:\Users\Alex\Documents\GitHub\Group17\XmlWeb\obj\Debug\XmlWeb.pdb

@@ -1,0 +1,5 @@
+C:\Users\Alex\Documents\GitHub\Group17\WorkersLibrary\bin\Release\WorkersLibrary.dll
+C:\Users\Alex\Documents\GitHub\Group17\WorkersLibrary\bin\Release\WorkersLibrary.pdb
+C:\Users\Alex\Documents\GitHub\Group17\WorkersLibrary\obj\Release\WorkersLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Group17\WorkersLibrary\obj\Release\WorkersLibrary.dll
+C:\Users\Alex\Documents\GitHub\Group17\WorkersLibrary\obj\Release\WorkersLibrary.pdb

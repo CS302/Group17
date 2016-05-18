@@ -14,9 +14,8 @@ namespace Lesson3_4
             workers[0] = new Worker("John", 27, 68153);
             workers[1] =new Worker("Tony", 25, 486551);
             workers[2] = new Worker("Svetlana", 23);
-
+            
             Worker.PrintWorkers(workers);
-
             Console.WriteLine("---------");
             Console.WriteLine(Worker.count);
         }
@@ -25,13 +24,20 @@ namespace Lesson3_4
 
     class Worker
     {
-        //поля класса
+        /// <summary>
+        /// Имя
+        /// </summary>
         private string name;
+        /// <summary>
+        /// Возраст
+        /// </summary>
         private int age;
+        /// <summary>
+        /// ИНН
+        /// </summary>
         public int snn;
         public static int count;
 
-        //свойства
         public int Age
         {
             set 
@@ -47,7 +53,13 @@ namespace Lesson3_4
         {
             get;    set;
         }
-        //конструкторы
+
+        /// <summary>
+        /// Конструктор
+        /// </summary>
+        /// <param name="name">Имя</param>
+        /// <param name="age">Возраст</param>
+        /// <param name="snn">ИНН</param>
         public Worker(string name, int age, int snn)
         {
             this.name = name;
@@ -59,13 +71,12 @@ namespace Lesson3_4
         public Worker(string name, int age)
             : this(name, age, 0)
         {   }
-
+        
         static Worker()
         {
             count = 0;
         }
 
-        //метод
         public void SetAge(int a)
         {
             if (a <= 0)

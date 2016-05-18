@@ -1,0 +1,57 @@
+﻿<Window x:Class="WorkersEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="725">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox Name="workersList" ItemsSource="{Binding Workers}" SelectionChanged="workersList_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="0 0 10 0" Text="{Binding Name}" FontSize="24" FontWeight="Bold"/>
+                        <TextBlock Margin="0 0 10 0" Text="{Binding Age}" FontSize="24"/>
+                        <TextBlock Margin="0 0 10 0" Text="{Binding Snn}" FontSize="24"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Name="detailsPanel" Grid.Column="1" Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Width="150" Text="Имя" FontSize="24"/>
+                <TextBox Name="textBoxName" Width="150" Text="{Binding Name}" FontSize="24"/>
+            </StackPanel>
+
+            <StackPanel Margin="0 20 0 0" Orientation="Horizontal">
+                <TextBlock Width="150" Text="Возраст" FontSize="24"/>
+                <TextBox Name="textBoxAge" Width="150" Text="{Binding Age}" FontSize="24"/>
+            </StackPanel>
+
+            <StackPanel Margin="0 20 0 0" Orientation="Horizontal">
+                <TextBlock Width="150" Text="ИНН" FontSize="24"/>
+                <TextBox Name="textBoxSNN" Width="150" Text="{Binding Snn}" FontSize="24"/>
+            </StackPanel>
+            <StackPanel Name="drInfo">
+                <StackPanel Margin="0 20 0 0" Orientation="Horizontal">
+                    <TextBlock Width="150" Text="Часы" FontSize="24"/>
+                    <TextBox Name="textBoxHours" Width="150" Text="{Binding Hours}" FontSize="24"/>
+                </StackPanel>
+                
+                <StackPanel Margin="0 20 0 0" Orientation="Horizontal">
+                    <TextBlock Width="150" Text="Авто" FontSize="24"/>
+                    <TextBox Name="textBoxCarType" Width="150" Text="{Binding CarType}" FontSize="24"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Name="manInfo" Margin="0 20 0 0" Orientation="Horizontal">
+                <TextBlock Width="150" Text="Проектов" FontSize="24"/>
+                <TextBox Name="textBoxProjCount" Width="150" Text="{Binding ProjCount}" FontSize="24"/>
+            </StackPanel>
+            <Button Content="Добавить" Margin=" 0 20 0 0 " Click="Button_Click"/>
+            <Button Content="Удалить" Margin=" 0 20 0 0 " Click="Button_Click_1"/>
+        </StackPanel>
+    </Grid>
+</Window>
